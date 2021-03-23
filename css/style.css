@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+.mainContainer,
+.innerContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer .headerCont {
+    padding: 15px;
+    background-color: indianred;
+    color: ghostwhite;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.mainContainer .footerCont {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid indianred;
+    padding: 10px;
+}
